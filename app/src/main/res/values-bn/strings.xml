@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">জল ও জীবন </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_enterance">enterance</string>
+    <string name="title_activity_about">About</string>
+
+
+    <string name="fab">অপশন পছন্দ করুন </string>
+    <string name="reload">পুনরায় চেষ্টা করুন </string>
+    <string name="submission">জমা দিন </string>
+    <string name="back">পেছনে </string>
+    <string name="community">কমুনিটি </string>
+    <string name="post">কমুনিটিতে পোষ্ট করুন </string>
+
+
+    <string name="popup">আজকে আপনি নির্দিশট জায়গায় ময়লা ফেলেছেন তো ?</string>
+
+    <string-array name="choice">
+        <item>ছবি তুলুন অথবা ভিডিও করুন </item>
+        <item>ছবি অথবা ভিডিও বাছুন </item>
+        <item>বিনা সংযুক্তিতে </item>
+    </string-array>
+
+    <string-array name="exitChoice">
+        <item>হোম এ ফেরত আসুন </item>
+        <item>আরেকটি রিপোর্ট দিন </item>
+    </string-array>
+
+    <string name="AirPolution">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </string>
+
+    <string name="Garbage_Causes_Dhaka">Garbage management system, consciousness of the citizens, gap between  the authority and the citizens</string>
+    <string name="Garbage_Counter_Dhaka">Improve management System, increasing consciousness, reducing gap between the authority and the citizens.</string>
+    <string name="SoilPollution_Cause_Dhaka">Industrial activity , Agricultural chemicals , Improper disposal of waste.</string>
+    <string name="SoilPollution_Counter_Dhaka">Buy biodegradable products,Store all liquid chemicals and waste in spill proof containers,Eat organic foods that are grown without pesticides,Do not use pesticides if you can,Use a drip tray to collect engine oil,Buy products that have little packaging.</string>
+    <string name="VisualPollution_Cause_Dhaka">Billboards, open storage of trash, space debris, telephone towers, electric wires, buildings and automobiles</string>
+    <string name="VisualPollution_Counter_Dhaka">Billboards should be allowed tohang at roadside for a specificperiod of time and after that timethese should be removed to avoidunwanted burden of billboards, Wires should be stretched byfollowing a well-planned design sothat these do not cause anyproblem to view things of distance.</string>
+    <string name="LightPollution_Cause_Dhaka">Use light during day time</string>
+    <string name="LightPollution_Area_Dhaka">Shop of market area of the Dhaka city</string>
+    <string name="LightPollution_Counter_Dhaka"> Reducing light using at market area</string>
+    <string name="ThermalPollution_Cause_Dhaka">use of water as a coolant by power plants and industrial manufacturers</string>
+    <string name="ThermalPollution_Counter_Dhaka">Water used as coolant and ejected back into water bodies – Mainly, the water that is used as coolant and transferred back to natural water bodies is the chief reason for thermal pollution</string>
+    <string name="AirPollution_Cause_Dhaka">Industry, Vehicle, Waste, Brickfields</string>
+    <string name="AirPollution_Area_Dhaka">All over Dhaka City</string>
+    <string name="AirPollution_Counter_Dhaka">Make consciousness, improve management system</string>
+    <string name="WaterPollution_Cause_Dhaka">Industrial Waste, Human Garbage, Unplanned Drainage System</string>
+    <string name="WaterPollution_Area_Dhaka">Buriganga\n Shitalokkha, Dholesshori</string>
+    <string name="WaterPollution_Counter_Dhaka">improve drainage system</string>
+    <string name="NoisePollution_Cause_Dhaka">Road Crossing, Traffic Jam, Illegal Parking</string>
+    <string name="NoisePollution_Area_Dhaka">Malibag, Shantinagar, Kakrai, Shahbag  (Front of BSMMU and BIRDEM), Banglamotor, Maghbazar, Mouchak, Maghbazar rail gate, Dhaka University (Front of Public Library and DUS), Shiddheswari Girls school, Nilkhet, Hotel Sonargaon.</string>
+    <string name="NoisePollution_Counter_Dhaka">Increase consciousness</string>
+
+
+    <string name="title_activity_gallary">gallary</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_image">Image</string>
+    <string name="title_activity_submission">SubmissionActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+

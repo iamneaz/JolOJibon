@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fuhad.jonojog.Profile"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profilewhite"
+        android:id="@+id/profieImage"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textAlignment="center"
+        android:layout_below="@+id/profieImage"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+    <View
+        android:layout_below="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:id="@+id/view2"
+        />
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAlignment="center"
+        android:layout_below="@+id/view2"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll1"
+    android:layout_below="@+id/userEmail">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gameScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GamePlay \nScore"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@id/userEmail"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+    <View
+        android:layout_below="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="2dp"
+
+        />
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gameScoreCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_below="@id/userEmail"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll2"
+        android:layout_below="@+id/userEmail"
+        android:layout_alignParentRight="true">
+
+    <TextView
+        android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:id="@+id/submissionScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submission \nScore"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_below="@id/userEmail"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            />
+        <View
+            android:layout_below="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="2dp"
+
+            />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/submissionScoreCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="300"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_below="@id/userEmail"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
+    <ImageView
+        android:id="@+id/badgeImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ll2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/badge"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll3"
+        android:layout_below="@+id/badgeImage"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Score"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            />
+        <View
+            android:layout_below="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="2dp"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/totalScoreCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="350"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_below="@id/total"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            />
+        <View
+            android:layout_below="@+id/totalScoreCard"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="2dp"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beginner"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_below="@id/total"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
